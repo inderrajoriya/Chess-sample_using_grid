@@ -1,0 +1,47 @@
+
+*
+{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body
+{
+height: 80px;
+}
+.container
+{  
+  width: 800px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 5px solid black;
+  overflow: hidden;
+}
+.black
+{
+  width: 100px;
+  height: 100px;
+  background-color:#b58863;
+ 
+
+}
+
+.white
+{
+  width: 100px;
+  height: 100px;
+  background-color:#f0d9b5;
+}
+.chess-icon
+{
+  font-size: 2.4rem;
+  margin: 33px;
+}
+.chess-icon-white
+{
+  font-size: 2.4rem;
+  margin: 33px;
+  color: white;
+}
